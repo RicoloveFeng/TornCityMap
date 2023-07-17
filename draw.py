@@ -95,7 +95,7 @@ def make_svg(citymap, tt_color, war_tts, unocc_tts):
     
 def draw_legend(citymap):
     dr = ImageDraw.Draw(citymap, 'RGBA')
-    font = ImageFont.truetype('arial.ttf', 60)
+    font = ImageFont.truetype('./arial.ttf', 60)
     fac2color = {
         'WestWorld(Monarch)': 'fuchsia',
         'CRyPTo(PT&CR&etc.)': 'yellow',
