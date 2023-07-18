@@ -65,7 +65,7 @@ with open("faction_branch.json", "r") as f:
 ns_faction = fb['ns']
 jfk_faction = fb['jfk']
 sa_faction = fb['sa']
-ptcr_faction = fb['ptca']
+ptcr_faction = fb['ptcr']
 m_faction = fb['m']
 facs = [ns_faction, jfk_faction, sa_faction, ptcr_faction, m_faction]
 
