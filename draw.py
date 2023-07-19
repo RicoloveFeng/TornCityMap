@@ -101,7 +101,7 @@ def draw_legend(citymap):
     fac2color = {
         'WestWorld(Monarch)': 'fuchsia',
         'CRyPTo(PT&CR&etc.)': 'yellow',
-        'Subversive Alliance': 'DodgerBlue',
+        'SA/RoD': 'DodgerBlue',
         'JFK': '#00b23a',
         'Natural Selection': '#ef4444',
         'Not Affliated': 'cyan',
