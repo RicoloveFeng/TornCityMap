@@ -2,7 +2,7 @@ import cairosvg, io, requests, json, datetime, os
 from PIL import Image, ImageDraw, ImageFont
 
 # 1. Get API key from secret
-api_key = "tgrY8cV8ejOGMgg1" #os.environ["APIKEY"]
+api_key = os.environ["APIKEY"]
  
 # 2. Get TT info from API
 with open("shapes.json", 'r') as f:
