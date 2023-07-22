@@ -99,11 +99,11 @@ def draw_legend(citymap):
     dr = ImageDraw.Draw(citymap, 'RGBA')
     font = ImageFont.truetype('./arial.ttf', 60)
     fac2color = {
-        'WestWorld(Monarch)': 'fuchsia',
+        'WestWorld(Monarch&etc.)': 'fuchsia',
         'CRyPTo(PT&CR&etc.)': 'yellow',
         'SA/RoD': 'DodgerBlue',
         'JFK': '#00b23a',
-        'Natural Selection': '#ef4444',
+        'OBN(NS&etc.)': '#ef4444',
         'Not Affliated': 'cyan',
         'NPC Buildings': 'orange'
     }
