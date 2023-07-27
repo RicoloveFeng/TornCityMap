@@ -104,7 +104,7 @@ def draw_legend(citymap):
         'CRyPTo(PT&CR&etc.)': 'yellow',
         'SA/RoD': 'DodgerBlue',
         'JFK': '#00b23a',
-        'OBN(NS&etc.)': 'darkred',
+        'OBN(NS&etc.)': '#f11414',
         'Not Affliated': 'cyan',
         'NPC Buildings': 'orange'
     }
