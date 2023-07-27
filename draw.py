@@ -2,7 +2,7 @@ import cairosvg, io, requests, json, datetime, os
 from PIL import Image, ImageDraw, ImageFont
 
 # 1. Get API key from secret
-api_key = os.environ["APIKEY"]
+# Moved to request.get
  
 # 2. Get TT info from API
 with open("shapes.json", 'r') as f:
@@ -33,6 +33,7 @@ while start_idx < 4150:
     try_count = 0
     while try_count <= 5:
         try:
+            api_key = os.environ["APIKEY"]
             tt_call_res = requests.get(call.format(','.join(tts[start_idx:start_idx+50]), api_key), timeout=5).json()
             break
         except:
@@ -76,7 +77,7 @@ def make_svg(citymap, tt_color, war_tts, unocc_tts):
     svg_suffix = '</svg>'
     svg_item = '<path d="{}" stroke-width="0" fill="{}" fill-opacity="0.27"/>'
     svg_unocc = '<path d="{}" stroke-width="0" fill="{}" fill-opacity="0.07"/>'
-    svg_war_stroke = '<path d="{}" stroke="{}" stroke-width="2" stroke-opacity="1" fill-opacity="0"/>'
+    svg_war_stroke = '<path d="{}" stroke="{}" stroke-width="3" stroke-opacity="1" fill-opacity="0"/>'
     svg_str = [svg_prefix]
     for tt in tt_color.keys():
         if tt not in tt_shape:
@@ -103,7 +104,7 @@ def draw_legend(citymap):
         'CRyPTo(PT&CR&etc.)': 'yellow',
         'SA/RoD': 'DodgerBlue',
         'JFK': '#00b23a',
-        'OBN(NS&etc.)': '#ef4444',
+        'OBN(NS&etc.)': 'darkred',
         'Not Affliated': 'cyan',
         'NPC Buildings': 'orange'
     }
