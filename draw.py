@@ -2,7 +2,7 @@ import cairosvg, io, requests, json, datetime, os
 from PIL import Image, ImageDraw, ImageFont
 
 # 1. Get API key from secret
-api_key = "tgrY8cV8ejOGMgg1" #os.environ["APIKEY"]
+api_key = os.environ["APIKEY"]
  
 # 2. Get TT info from API
 with open("shapes.json", 'r') as f:
@@ -99,11 +99,11 @@ def draw_legend(citymap):
     dr = ImageDraw.Draw(citymap, 'RGBA')
     font = ImageFont.truetype('./arial.ttf', 60)
     fac2color = {
-        'WestWorld(Monarch)': 'fuchsia',
+        'WestWorld(Monarch&etc.)': 'fuchsia',
         'CRyPTo(PT&CR&etc.)': 'yellow',
-        'Subversive Alliance': 'DodgerBlue',
+        'SA/RoD': 'DodgerBlue',
         'JFK': '#00b23a',
-        'Natural Selection': '#ef4444',
+        'OBN(NS&etc.)': '#ef4444',
         'Not Affliated': 'cyan',
         'NPC Buildings': 'orange'
     }
