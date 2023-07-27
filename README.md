@@ -12,9 +12,9 @@ Draw territories every day
 |![](https://factiontags.torn.com/9055-26526.png) Natural Selection IV|![](https://factiontags.torn.com/8803-98263.png) Buttgrass Inc|![](https://factiontags.torn.com/35507-78489.png) The Nest|
 |![](https://factiontags.torn.com/10820-65124.png) Carbon  Penguins|![](https://factiontags.torn.com/1149-29040.png) WTF|![](https://factiontags.torn.com/9412-79697.png) BLACK STATUES|
 |![](https://factiontags.torn.com/15222-40400.png) Carbon Rising|![](https://factiontags.torn.com/25025-45324.png) DP Warriors|![](https://factiontags.torn.com/21526-69433.png) NS Bomb Shelter|
-|![](https://factiontags.torn.com/21526-69433.png) NS Bomb Shelter|![](https://factiontags.torn.com/42125-87475.png) Octogenarian DirtyBombers|![](https://factiontags.torn.com/12863-92015.png) WTF Healers|
+|![](https://factiontags.torn.com/11062-13536.png) Carbon Z|![](https://factiontags.torn.com/42125-87475.png) Octogenarian DirtyBombers|![](https://factiontags.torn.com/12863-92015.png) WTF Healers|
 |![](https://factiontags.torn.com/29865-66444.png) WTF Medical|![](https://factiontags.torn.com/40992-7551.png) Medic!!|![](https://factiontags.torn.com/28073-20069.png) Cat Land Forever|
-|![](https://factiontags.torn.com/9110-6271.png) Siege|![](https://factiontags.torn.com/11062-13536.png) Carbon Z
+|![](https://factiontags.torn.com/9110-6271.png) Siege|||
 
 
 |JFK|Faction Amount: |31|
