@@ -100,12 +100,12 @@ def draw_legend(citymap):
     dr = ImageDraw.Draw(citymap, 'RGBA')
     font = ImageFont.truetype('./arial.ttf', 60)
     fac2color = {
-        'WestWorld(Monarch&etc.)': 'fuchsia',
+        'WestWorld(Monarch&etc.)': 'cyan',
         'CRyPTo(PT&CR&etc.)': 'yellow',
         'SA/RoD': 'DodgerBlue',
         'JFK': '#00b23a',
         'OBN(NS&etc.)': '#f11414',
-        'Not Affliated': 'cyan',
+        'Not Affliated': 'fuchsia',
         'NPC Buildings': 'orange'
     }
     line = 0
@@ -143,9 +143,9 @@ for tt, detail in ttinfo.items():
     elif facid in ptcr_faction:
         color = 'yellow'
     elif facid in m_faction:
-        color = '#cc00cc' # fuchsia
+        color = 'cyan' # fuchsia
     elif facid != 0:
-        color = 'cyan'
+        color = '#cc00cc'
     if color:
         ttcolor[tt] = color
         vis.add(tt)
