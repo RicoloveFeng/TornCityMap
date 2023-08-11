@@ -143,9 +143,9 @@ for tt, detail in ttinfo.items():
     elif facid in ptcr_faction:
         color = 'yellow'
     elif facid in m_faction:
-        color = 'cyan' # fuchsia
+        color = 'cyan'
     elif facid != 0:
-        color = '#cc00cc'
+        color = '#cc00cc'  # fuchsia
     if color:
         ttcolor[tt] = color
         vis.add(tt)
@@ -170,7 +170,7 @@ while bfs_queue:
         if tt not in ttinfo:
             print("we need info of", tt)
             continue
-        if ttcolor[tt] == 'cyan':
+        if ttcolor[tt] == '#cc00cc':
             continue
         nbs = ttinfo[tt]['neighbors']
         for nb in nbs:
